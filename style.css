@@ -1,0 +1,104 @@
+
+
+body {
+   background-image: url("images/beach.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #cccccc;
+   font-family: 'Open Sans', sans-serif;
+   color: #40514e;
+   font-size: 16px;
+   line-height: 3;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container{
+  width: 790px;  /* This sets the width */
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.card{background-color: white;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 72px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.button-blue {
+ background-color: #5893d4;
+ padding: 4px 8px;
+ color: white;
+ border-radius: 8px;
+ box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.button-blue:hover{
+  background-color: #070d59;
+  color: white;
+}
+
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: #070d59;
+/*  color:*/
+}
+p{
+  color: #5893d4;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ebf0f6;
+}
+
+a:hover{
+  color: #070d59;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #074684;
+}
